@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="../static/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Varela+Round&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cantarell&family=Varela+Round&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sen&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <script src="../static/script.js"></script>
+
+  </head>
+  <body>
+
+    <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="/developer">Developer</a>
+    <a href="#">Source Code</a>
+    </div>
+
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+    <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+    </script>
+
+    <h1 align="center">CHECK YOUR ATTENDANCE</h1>
+
+    <div class="form-div" align="center">
+
+      <h2>LOGIN</h2>
+
+      <form class="form" action="/myattendance" method="post">
+        <input type="text" name="user" placeholder="Username" required>
+        <br><br>
+        <input type="password" name="password" placeholder="Password" required>
+        <br><br>
+        <input type="submit" value="CHECK ATTENDANCE">
+        <br>
+      </form>
+
+    </div>
+    <br>
+
+      {% if name %}
+
+        <div class="information">
+
+          <p hidden class="jsonobj">{{name}}</p>
+
+        </div>
+
+        <div class="student_info" align="center">
+          <b>
+          <p id="message" align="center"></p>
+    			<p id="name"></p>
+    			<p id="course"></p>
+    			<p id="sem"></p>
+    			<p id="section"></p>
+    			<p id="TG"></p>
+    			<p id="tgphno"></p>
+          </b>
+    		</div>
+
+      {% endif %}
+
+  </body>
+</html>

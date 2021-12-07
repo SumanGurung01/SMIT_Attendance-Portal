@@ -1,0 +1,175 @@
+body
+{
+  margin: 0px;
+}
+h1
+{
+  font-family: 'Righteous', cursive;
+}
+
+h2
+{
+  font-family: 'Cantarell', sans-serif;
+}
+
+form
+{
+  font-family: 'Cantarell', sans-serif;
+}
+
+input[type="text"]
+{
+  height: 25px;
+  border-radius: 19px;
+  padding-left: 14px;
+  background-color: #F2DDF0;
+  font-family: 'Sen', sans-serif;
+}
+
+input[type="password"]
+{
+  height: 25px;
+  border-radius: 19px;
+  padding-left: 14px;
+  background-color: #F2DDF0;
+  font-family: 'Sen', sans-serif;
+}
+
+input[type="submit"]
+{
+  width:179px;
+  height: 39px;
+  border-radius: 27px;
+  background-color: #a1a1a1;
+  color: black;
+  font-family: 'Sen', sans-serif;
+}
+
+.submit_btn:hover , .submit_btn:focus , .submit_btn:active
+{
+  box-shadow: 0 0 20px rgbs(0,0,0,0.5);
+  -webKit-transform: scale(1.1);
+  transform : scale(1.1);
+}
+
+
+.student_info
+{
+  color: white;
+  padding: 10px;
+  background-color: #6C6977;
+  font-size: 12px;
+  margin-bottom:10px;
+  font-family: 'Sen', sans-serif;
+}
+
+.subject
+{
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+  padding-left: 30px;
+  background-color:#F2DDF0;
+  border-radius: 7px;
+  margin-bottom: 10px;
+  font-family: 'Sen', sans-serif;
+  align-self: center;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+.dev
+{
+  margin: auto;
+  display: flex;
+  width: 41%;
+  padding: 10px;
+  border-radius: 100px;
+  border: 1px solid black;
+  margin-bottom: 10px;
+  font-family: 'Sen', sans-serif;
+  align-self: center;
+}
+
+.name
+{
+  padding-top: 30px;
+  padding-left: 50px;
+  font-family: 'Sen', sans-serif;
+  font-size: 21px;
+}
+
+.heading
+{
+  background-color: black;
+  color: white;
+  padding: 1px;
+  font-family: 'Righteous', cursive;
+}
+
+.fa-instagram {
+  color: black;
+}
+
+.fa-google {
+  color: black;
+}
+
+.fa-github {
+  color: black;
+}
+
+.fa {
+  padding: 10px;
+  text-align: center;
+  margin: 5px 2px;
+  font-size: 30px;
+  width: 50px;
+}
+
+.float
+{
+  display: flex;
+}
