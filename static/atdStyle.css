@@ -1,0 +1,81 @@
+body{
+    padding: 2% 2% 2% 2%;
+}
+.col-10{
+    font-size: 2.8vw;
+}
+
+#detail{
+    font-size: 90%;
+}
+
+.col-2{
+    font-size: 2.5vw;
+    padding-top: 2%;
+}
+
+.cardheader{
+    font-size: 2vw;
+    padding: 2vw 0vw 0vw 2vw;
+    color: white;
+    background-color: #6610f2;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.cardbody{
+    font-size: 1.5vw;
+    padding: 2vw 0vw 0vw 2vw;
+}
+
+#atd{
+    padding : 3% 9% 3% 9%
+}
+
+#sub{
+    font-size: 140%;
+}
+
+#data{
+    padding-left: 3%;
+    font-size: 90%;
+    border-radius: 3px;
+    width:10vw;
+}
+
+#percentage{
+    padding-top: 1vw;
+    font-size: 2.7vw;
+}
+
+@media (max-width:500px)
+{
+    .cardheader{
+    font-size: 5vw;
+    padding: 2vw 0vw 0vw 2vw;
+    }
+
+    .cardbody{
+        font-size: 3.6vw;
+        padding: 2vw 0vw 0vw 2vw;
+    }
+
+    #percentage{
+        padding-top: 5vw;
+        font-size: 3.6vw;
+    }
+
+    
+    #data{
+        padding-left: 3%;
+        font-size: 90%;
+        border-radius: 3px;
+        width:14vw;
+    }
+
+    #sub{
+        font-size: 90%;
+    }
+
+    
+}
+

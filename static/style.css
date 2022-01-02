@@ -1,83 +1,34 @@
-body
-{
-  margin: 0px;
-}
-h1
-{
-  font-family: 'Righteous', cursive;
-}
-
-h2
-{
-  font-family: 'Cantarell', sans-serif;
-}
-
-form
-{
-  font-family: 'Cantarell', sans-serif;
-}
-
-input[type="text"]
-{
-  height: 25px;
-  border-radius: 19px;
-  padding-left: 14px;
-  background-color: #F2DDF0;
-  font-family: 'Sen', sans-serif;
-}
-
-input[type="password"]
-{
-  height: 25px;
-  border-radius: 19px;
-  padding-left: 14px;
-  background-color: #F2DDF0;
-  font-family: 'Sen', sans-serif;
-}
-
-input[type="submit"]
-{
-  width:179px;
-  height: 39px;
-  border-radius: 27px;
-  background-color: #a1a1a1;
-  color: black;
-  font-family: 'Sen', sans-serif;
-}
-
-.submit_btn:hover , .submit_btn:focus , .submit_btn:active
-{
-  box-shadow: 0 0 20px rgbs(0,0,0,0.5);
-  -webKit-transform: scale(1.1);
-  transform : scale(1.1);
-}
-
-
-.student_info
-{
+.container-header{
+  background-color:#6610f2;
+  padding: 0px 30px 30px 30px;
   color: white;
-  padding: 10px;
-  background-color: #6C6977;
-  font-size: 12px;
-  margin-bottom:10px;
-  font-family: 'Sen', sans-serif;
+  font-size: 3vw;
 }
 
-.subject
-{
-  margin: auto;
-  width: 60%;
-  padding: 10px;
-  padding-left: 30px;
-  background-color:#F2DDF0;
-  border-radius: 7px;
-  margin-bottom: 10px;
-  font-family: 'Sen', sans-serif;
-  align-self: center;
+
+.col{
+  border-radius: 9px;
+  background-color: rgb(234, 234, 234);
+  padding: 5px 10px 0px 10px;
+  width: 30%;
 }
 
-body {
-  font-family: "Lato", sans-serif;
+
+@media (max-width:500px){
+  .col{
+      border-radius: 9px;
+      background-color: rgb(234, 234, 234);
+      padding: 5px 10px 0px 10px;
+      width : 80%;
+  }
+
+  .container-header{
+      background-color: #6610f2;
+      padding: 0px 30px 30px 30px;
+      color: white;
+      font-size: 8vw;
+  }
+
 }
 
 .sidenav {
@@ -119,57 +70,7 @@ body {
   .sidenav a {font-size: 18px;}
 }
 
-
-.dev
-{
-  margin: auto;
-  display: flex;
-  width: 41%;
-  padding: 10px;
-  border-radius: 100px;
-  border: 1px solid black;
-  margin-bottom: 10px;
-  font-family: 'Sen', sans-serif;
-  align-self: center;
+.navicon{
+  background-color: #6610f2;
 }
 
-.name
-{
-  padding-top: 30px;
-  padding-left: 50px;
-  font-family: 'Sen', sans-serif;
-  font-size: 21px;
-}
-
-.heading
-{
-  background-color: black;
-  color: white;
-  padding: 1px;
-  font-family: 'Righteous', cursive;
-}
-
-.fa-instagram {
-  color: black;
-}
-
-.fa-google {
-  color: black;
-}
-
-.fa-github {
-  color: black;
-}
-
-.fa {
-  padding: 10px;
-  text-align: center;
-  margin: 5px 2px;
-  font-size: 30px;
-  width: 50px;
-}
-
-.float
-{
-  display: flex;
-}

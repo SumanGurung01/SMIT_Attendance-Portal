@@ -72,7 +72,7 @@ def myattendence():
         student["course"]=info[2].get_text().upper()
         student["count"]=count
 
-        return render_template('index.html', name = json.dumps(student))
+        return render_template('attendance.html', name = json.dumps(student))
 
     else:
         return render_template('index.html',name = json.dumps({}))
