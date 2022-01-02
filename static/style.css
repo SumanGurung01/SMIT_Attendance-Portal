@@ -74,3 +74,46 @@
   background-color: #6610f2;
 }
 
+<<<<<<< HEAD
+=======
+.name
+{
+  padding-top: 30px;
+  padding-left: 50px;
+  font-family: 'Sen', sans-serif;
+  font-size: 21px;
+}
+
+.heading
+{
+  background-color: black;
+  color: white;
+  padding: 1px;
+  font-family: 'Righteous', cursive;
+}
+
+.fa-instagram {
+  color: black;
+}
+
+.fa-google {
+  color: black;
+}
+
+.fa-github {
+  color: black;
+}
+
+.fa {
+  padding: 5px;
+  text-align: center;
+  margin: 5px 2px;
+  font-size: 30px;
+  width: 50px;
+}
+
+.float
+{
+  display: flex;
+}
+>>>>>>> cfc3d6ce44d0f8ae1d73bc7540baa62c99ee72b4
